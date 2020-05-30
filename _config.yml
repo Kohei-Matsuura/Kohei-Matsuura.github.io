@@ -23,7 +23,7 @@ github_username:  komats0910
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 
