@@ -1,0 +1,48 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <a class="footer-heading-a" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              <ul>
+                <li class="made-by">
+                  - by Kohei Matsuura
+                  <ul class="social-media-list">
+                    <li class="made-by-mail">
+                    {%- if site.email -%}
+                      <p class="pink-mail">✉</p><p class="italic-mail">{{ site.email }}</p>
+                    {%- endif -%}
+                    </li>
+                  </ul>
+                <li class="made-by">
+                  - with <a class="made-by-list" href="http://jekyllrb-ja.github.io/">Jekyll</a>
+                </li>
+                <li class="made-by">
+                  - based on <a class="made-by-list" href="https://github.com/jekyll/minima">Minima theme</a>
+                </li>  
+              </ul>
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
