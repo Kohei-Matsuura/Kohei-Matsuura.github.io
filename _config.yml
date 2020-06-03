@@ -18,22 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Komats Blog
+title: Kohei Matsuura
 author: Kohei Matsuura
 email: leinown[at]gmail.com
-description: This site was built originally to be reminiscent of what I thought, read, found, and so on. However, I'm happy if I help you relieve the boredom..
+#description: <p class="description">T</p>his was originally made as a hub connected to all of my SNS and made to be reminiscent of what I thought, read, found, and so on. However, I'm happy if I help you relieve the boredom :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: komats0910
-github_username:  komats0910
+github_username:  Kohei-Matsuura
 linkedin_username: komats0910
 facebook_username: komats0910
 googlescholar_username: Kohei Matsuura
 
+permalink: /:categories/:title/
+
 # Build settings
+markdown: kramdown
+kramdown:
+   input: GFM
+   hard_wrap: false
+
 theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

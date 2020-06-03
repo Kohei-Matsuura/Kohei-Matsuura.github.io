@@ -1,9 +1,9 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href=".{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <a class="footer-heading-a" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="footer-heading-a" rel="author" href="/index.html">{{ site.title | escape }}</a>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -16,7 +16,7 @@
                   <ul class="social-media-list">
                     <li class="made-by-mail">
                     {%- if site.email -%}
-                      <p class="pink-mail">✉</p><p class="italic-mail">{{ site.email }}</p>
+                      <span class="pink-mail">✉</span><span class="italic-mail">{{ site.email }}</span>
                     {%- endif -%}
                     </li>
                   </ul>
@@ -25,6 +25,9 @@
                 </li>
                 <li class="made-by">
                   - based on <a class="made-by-list" href="https://github.com/jekyll/minima">Minima theme</a>
+                </li>  
+                <li class="made-by">
+                  - powered by <a class="made-by-list" href="https://pages.github.com/">Github Pages</a>
                 </li>  
               </ul>
             {%- else -%}
@@ -39,7 +42,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <span class="description-first">T</span><span class="description">his is Kohei Matsuura's official site. Should you notice something or if you just want to contact with me, I am really ready to accept your comments via e-mail or any SNS. </span><br><span class="date">(Jun. 3rd, 2020)</span>
       </div>
     </div>
 
