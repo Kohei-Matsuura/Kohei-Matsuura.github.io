@@ -48,4 +48,4 @@ A master's student in Graduate School of Informatics, Kyoto University
 
 ### Additional information
 - Fluent in English: TOEIC 895 (Listening: 415, Reading: 480)
-- languages: Python (including PyTorch), Java, C, HTML/CSS, C#
+- languages: Python (including PyTorch), Java, HTML/CSS, C#
