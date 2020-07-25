@@ -13,7 +13,7 @@ order: 3
 
 1. Speech Corpus of Ainu Folklore and End-to-end Speech Recognition for Ainu Language (**Accepted for LREC2020**; [paper](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.319.pdf))
 
-2. Generative Adversarial Training Data Adaptation for Very Low-resource Automatic Speech Recognition (preprint; [arXiv](https://arxiv.org/abs/2005.09256))
+2. Generative Adversarial Training Data Adaptation for Very Low-resource Automatic Speech Recognition (**Accepted for Interspeech2020**; [arXiv](https://arxiv.org/abs/2005.09256))
 
 
 #### Domestic conference
