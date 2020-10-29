@@ -32,8 +32,7 @@ A master's student in Graduate School of Informatics, Kyoto University
 (GitHub: https://github.com/Kohei-Matsuura/LAS)
 
 - Publications:
-  - Generative Adversarial Training Data Adaptation for Very Low-resource Automatic Speech Recognition
-(Accepted for InterSpeech 2020, arXiv: https://arxiv.org/abs/2005.09256)
+  - Generative Adversarial Training Data Adaptation for Very Low-resource Automatic Speech Recognition<br>(Accepted for InterSpeech 2020, arXiv: https://arxiv.org/abs/2005.09256)
   - Speech Corpus of Ainu Folklore and End-to-end Speech Recognition for Ainu Language
 (Accepted for LREC 2020, arXiv: https://arxiv.org/abs/2002.06675)
   - Cross-lingual and Speaker Adversarial Learning for End-to-End Ainu Speech Recognition
